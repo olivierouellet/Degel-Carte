@@ -1,4 +1,4 @@
-export const CARD_VERSION = '1.0.0';
+export const CARD_VERSION = '0.1.0';
 export const CARD_TAG = 'degel-carte';
 export const EDITOR_TAG = 'degel-carte-editor';
 

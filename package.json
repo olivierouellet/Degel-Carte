@@ -1,7 +1,7 @@
 {
   "name": "degel-carte",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "packageManager": "yarn@4.12.0",
   "description": "Carte Lovelace de la période de dégel au Québec (zones 1, 2 et 3), avec l’intégration Dégel ou directement de Transports Québec · Lovelace card for Québec's thaw period",
   "keywords": [
