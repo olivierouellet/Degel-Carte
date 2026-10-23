@@ -7,6 +7,7 @@ import {
   CARD_VERSION,
   DEFAULT_DAYS_AFTER,
   DEFAULT_DAYS_BEFORE,
+  DEFAULT_ICON,
   EDITOR_TAG,
   INFO_URL,
   LOAD_LIMITS_MAP_URL,
@@ -201,7 +202,7 @@ export class DegelCarte extends LitElement {
     return html`
       <ha-card>
         <div class="header">
-          <ha-icon icon="mdi:snowflake-melt"></ha-icon>
+          <ha-icon icon=${cfg.icon || DEFAULT_ICON}></ha-icon>
           <div class="title">${cfg.title || t('card.default_title')}</div>
         </div>
         ${

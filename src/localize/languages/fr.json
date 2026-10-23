@@ -44,6 +44,7 @@
     "days_after": "Jours après la fin",
     "title": "Titre",
     "title_helper": "Laissez vide pour « Période de dégel ».",
+    "icon": "Icône",
     "language": "Langue",
     "lang_auto": "Automatique (Home Assistant)",
     "lang_fr": "Français",

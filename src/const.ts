@@ -8,6 +8,8 @@ export const INTEGRATION_DOMAIN = 'degel';
 /** The published dates and times are Québec local time. */
 export const QUEBEC_TZ = 'America/Toronto';
 
+export const DEFAULT_ICON = 'mdi:truck-snowflake';
+
 export const ZONES = [1, 2, 3] as const;
 export const DEFAULT_DAYS_BEFORE = 14;
 export const DEFAULT_DAYS_AFTER = 7;

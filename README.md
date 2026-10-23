@@ -60,6 +60,7 @@ Ajoutez ensuite la carte depuis le sélecteur de cartes (cherchez « Dégel »).
 | `days_before` | `14` | Mode direct : jours avant le début pendant lesquels la saison est en cours. (Avec `entity`, c’est l’intégration qui décide.) |
 | `days_after` | `7` | Mode direct : jours après la fin. |
 | `title` | Période de dégel | Titre de la carte. |
+| `icon` | `mdi:truck-snowflake` | Icône à gauche du titre. |
 | `hide_outside_season` | `false` | Masquer la carte hors de la saison de dégel. Elle reste visible quand vous modifiez le tableau de bord, avec une note. |
 | `show_timeline` | `true` | Afficher la ligne du temps. |
 | `show_today_label` | `true` | Afficher « Aujourd’hui » sous la ligne du temps. Le trait vertical reste affiché. |
@@ -142,6 +143,7 @@ Then add the card from the card picker (search for “Dégel”).
 | `days_before` | `14` | Direct mode: days before the start during which the season is on. (With `entity`, the integration decides.) |
 | `days_after` | `7` | Direct mode: days after the end. |
 | `title` | Thaw period | Card title. |
+| `icon` | `mdi:truck-snowflake` | Icon left of the title. |
 | `hide_outside_season` | `false` | Hide the card outside the thaw season. It stays visible while you edit the dashboard, with a note. |
 | `show_timeline` | `true` | Show the timeline. |
 | `show_today_label` | `true` | Show “Today” under the timeline. The vertical line stays. |

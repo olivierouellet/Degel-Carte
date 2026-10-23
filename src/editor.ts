@@ -2,7 +2,15 @@ import { LitElement, html, css, nothing, TemplateResult } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 
 import type { DegelCarteConfig, HomeAssistant } from './types';
-import { DEFAULT_DAYS_AFTER, DEFAULT_DAYS_BEFORE, EDITOR_TAG, INTEGRATION_DOMAIN, MAX_DAYS, ZONES } from './const';
+import {
+  DEFAULT_DAYS_AFTER,
+  DEFAULT_DAYS_BEFORE,
+  DEFAULT_ICON,
+  EDITOR_TAG,
+  INTEGRATION_DOMAIN,
+  MAX_DAYS,
+  ZONES,
+} from './const';
 import { Lang, localize, resolveLanguage } from './localize/localize';
 
 type Source = 'sensor' | 'direct';
@@ -157,6 +165,7 @@ export class DegelCarteEditor extends LitElement {
   private _optionsSchema(): FormSchema[] {
     return [
       { name: 'title', selector: { text: {} } },
+      { name: 'icon', selector: { icon: { placeholder: DEFAULT_ICON } } },
       {
         name: 'language',
         selector: {
@@ -234,6 +243,7 @@ export class DegelCarteEditor extends LitElement {
     // Keep the YAML short: drop values equal to the defaults and empty titles.
     for (const [key, def] of Object.entries(FORM_DEFAULTS)) if (value[key] === def) delete value[key];
     if (!value.title) delete value.title;
+    if (!value.icon) delete value.icon;
     this._update(value as DegelCarteConfig);
   }
 

@@ -44,6 +44,7 @@
     "days_after": "Days after the end",
     "title": "Title",
     "title_helper": "Leave empty for “Thaw period”.",
+    "icon": "Icon",
     "language": "Language",
     "lang_auto": "Automatic (Home Assistant)",
     "lang_fr": "Français",

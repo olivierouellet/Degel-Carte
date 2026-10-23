@@ -21,6 +21,7 @@ export interface DegelCarteConfig {
   days_before?: number;
   days_after?: number;
   title?: string;
+  icon?: string;
   hide_outside_season?: boolean;
   show_timeline?: boolean;
   show_links?: boolean;
