@@ -1,0 +1,7 @@
+{
+  "name": "Dégel-Carte",
+  "country": ["CA"],
+  "render_readme": true,
+  "filename": "degel-carte.js",
+  "homeassistant": "2025.1.0"
+}
